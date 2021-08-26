@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./assest/style.css" rel="stylesheet">
+    <title>Quiz Me!</title>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>High Scores!</h1>
+        </div>
+        <div>
+            <p id="timer">Time will begin when you Start!</p>
+        </div>
+        <div class="highscores">
+            <div class="player">
+                <h3>YOUR SCORE</h3>
+                <div class="score-box" id="score">
+                    
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div id="question-container" class="hide">
+                <div id="question">Question</div>
+                <div id="answer-buttons" class="btn-grid">
+                    <button class="btn">Answer 1</button>
+                    <button class="btn">Answer 2</button>
+                    <button class="btn">Answer 3</button>
+                    <button class="btn">Answer 4</button>
+                </div>
+            </div>
+            <div class="controls">
+                <button id="start-btn" class="start-btn btn">Start</button>
+                <button id="next-btn" class="next-btn btn hide">Next</button>  
+            </div>
+            <div>
+                <button id="fin-btn" class="fin-btn btn hide">Finish</button>
+            </div>
+        </div>
+    </main>
+</body>
+<script defer src="./assest/script.js"></script>
+
+
+</html>

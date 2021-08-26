@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <div class="grid">
+        <!--below is the the grid for the questions-->
+        <div class="highscore">HighScore:</div>
+
+        <div id="quiz-Container">
+            <div id="fin" class="flex-center flex-column">hello
+                <h1 id="FinalScore">0</h1>
+                <form>
+                    <input type="text" id="username" placeholder="username" />
+
+                </form>
+                <button type="submit" class="btn" id="saveScore" onclick="saveHighScore(event)">Submit</button>
+
+                <a class="btn" href="index.html">Play Again</a>
+            </div>
+        </div>
+
+        <script src="app.js"></script>
+</body>
+<script defer src="script.js"></script>
+
+</html>
